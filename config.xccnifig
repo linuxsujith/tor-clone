@@ -1,0 +1,17 @@
+//
+//  Created by Benjamin Erhart on 21.01.19.
+//  Copyright © 2012 - 2024, Tigas Ventures, LLC (Mike Tigas)
+//
+
+// Avoid accidental checkins:
+// git update-index --skip-worktree Config.xcconfig
+// git update-index --no-skip-worktree Config.xcconfig
+
+
+PRODUCT_BUNDLE_IDENTIFIER[config=Debug] =
+DEVELOPMENT_TEAM[config=Debug] =
+PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
+
+PRODUCT_BUNDLE_IDENTIFIER[config=Release] = com.miketigas.OnionBrowser
+DEVELOPMENT_TEAM[config=Release] = 68QUP6KP2C
+PROVISIONING_PROFILE_SPECIFIER[config=Release] = 202501 Onion Browser Dist
